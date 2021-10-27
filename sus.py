@@ -1,1 +1,2 @@
-print('amogus')
+print('amogus','sus')
+x = input()
