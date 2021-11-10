@@ -1,3 +1,3 @@
-nums = list(map(int, input('digite 3 numeros inteiros(separe com espaços)').split()))
+nums = list(map(int, input('Digite 3 números inteiros(separe com espaços)').split()))
 soma = sum(nums)
-print(f'soma: {soma}')
+print(f'Soma: {soma}')

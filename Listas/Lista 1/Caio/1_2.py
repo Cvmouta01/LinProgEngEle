@@ -1,1 +1,1 @@
-print(float(input('escreva um numero real: ')))
+print(float(input('Escreva um número real: ')))

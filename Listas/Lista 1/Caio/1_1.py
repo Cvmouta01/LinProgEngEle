@@ -1,1 +1,1 @@
-print(int(input('escreva um numero inteiro: ')))
+print(int(input('Escreva um número inteiro: ')))
