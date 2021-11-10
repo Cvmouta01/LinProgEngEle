@@ -1,5 +1,5 @@
-num = float(input('Digite um numero real:'))
+num = float(input('Digite um número real:'))
 if num < 0:
-    print(f'O numero {num} é negativo e não possui raiz, o número é invalido')
+    print(f'O número {num} é negativo e não possui raiz real, o número é invalido')
 else:
     print(f'A raiz de {num} é {num**0.5}')
