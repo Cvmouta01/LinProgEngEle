@@ -1,4 +1,4 @@
-numeros = list(map(float, input('Digite 10 números reais(separe-os com espaço): ').split()))
+numeros = list(map(float, input('Digite 5 números reais(separe-os com espaço): ').split()))
 maior = max(numeros)
 menor = min(numeros)
 
