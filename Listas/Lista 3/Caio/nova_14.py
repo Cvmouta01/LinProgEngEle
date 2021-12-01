@@ -1,5 +1,5 @@
 repetidos = []
-numeros = list(map(float, input('Digite 5 números reais(separe-os com espaço): ').split()))
+numeros = list(map(float, input('Digite 10 números reais(separe-os com espaço): ').split()))
 for i in range(len(numeros)):
     numteste = numeros[0]
     numeros.remove(numeros[0])
