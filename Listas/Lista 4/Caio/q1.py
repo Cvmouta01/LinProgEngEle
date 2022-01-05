@@ -28,7 +28,7 @@ class Pessoa:
         f'Altura: {self.get_altura()}\n')
 
 
-carlos = Pessoa('carlos', 17, 1.75)
+carlos = Pessoa('juan carlos', 17, 1.75)
 carlos.show_data()
 carlos.set_altura(1.76)
 carlos.set_idade(18)
