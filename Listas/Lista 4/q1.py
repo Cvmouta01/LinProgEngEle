@@ -25,7 +25,7 @@ class Pessoa:
 
     def show_data(self,):
         print(f'\nNome: {self.get_nome()}\nIdade: {self.get_idade()}\n'
-            f'Altura: {self.get_altura()}\n')
+        f'Altura: {self.get_altura()}\n')
 
 
 carlos = Pessoa('carlos', 17, 1.75)
