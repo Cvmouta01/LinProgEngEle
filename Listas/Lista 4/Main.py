@@ -1,2 +1,5 @@
 import pandas as pd
-vasco = pd.read_csv('Índice de Energia Elétrica IEE - Histórico  InfoMoney.csv')
+vascudao = pd.read_excel('vascudo.xlsx')
+for line in vascudao:
+    for colum in line:
+        print(colum)
