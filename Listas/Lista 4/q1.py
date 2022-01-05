@@ -24,7 +24,8 @@ class Pessoa:
         self.__altura = novo
 
     def show_data(self,):
-        print(f'\nNome: {self.get_nome()}\nIdade: {self.get_idade()}\nAltura: {self.get_altura()}\n')
+        print(f'\nNome: {self.get_nome()}\nIdade: {self.get_idade()}\n'
+            f'Altura: {self.get_altura()}\n')
 
 
 carlos = Pessoa('carlos', 17, 1.75)
