@@ -1,4 +1,4 @@
-class pessoa:
+class Pessoa:
 
     def __init__(self, nome, idade, altura):
         self.__nome = nome
@@ -27,7 +27,7 @@ class pessoa:
         print(f'\nNome: {self.get_nome()}\nIdade: {self.get_idade()}\nAltura: {self.get_altura()}\n')
 
 
-carlos = pessoa('carlos', 17, 1.75)
+carlos = Pessoa('carlos', 17, 1.75)
 carlos.show_data()
 carlos.set_altura(1.76)
 carlos.set_idade(18)
